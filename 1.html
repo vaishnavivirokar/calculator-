@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/
+    bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+ crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" 
+    integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" 
+    crossorigin="anonymous"></script>
+<style>
+    body{
+        background-color: black;
+    }
+ input{
+   width: 250px;
+   height: 50px;
+   border-radius:20px ;
+   color: #ffffff;
+   background-color: #000;
+}
+
+ 
+.body table{
+    margin-left: 500px;
+    margin-top: 150px;
+    border-radius:15px ;
+    box-shadow: rgb(151, 115, 39) 0px 20px 30px -10px;
+    
+  
+   
+}
+.body td{
+    border-radius: 50px;
+    text-align: center;
+    color: #ffffff;
+    cursor:pointer;
+
+}
+.body td:hover {
+color: transparent;
+
+}
+.body span{
+    color: orangered;
+}
+.body p{
+    color: #a8a0a0;
+   
+}
+
+</style> 
+  
+</head>
+<body>
+<div class="body">
+    <table border="1 solid black" cellspacing="10" cellpadding="10">
+       <td colspan="4"><input class="form-control" id="input" style="text-align: right;"></td> 
+        <tbody>
+            
+            <!-- <tr>
+                 <td colspan="4"><div class="input1"> <input type="text"></div></td> -->
+                
+            <tr>
+                <td onclick="clearall()">C</td>
+                <td colspan="2" onclick="del()">DEL</td>
+                <td style="background-color: orange; color: #000;" onclick="insert('/')">/</td>
+            </tr>
+            <tr>
+                <td onclick="insert(7)">7</td>
+                <td onclick="insert(8)">8</td>
+                <td onclick="insert(9)">9</td>
+                <td style="background-color: orange; color: #000;"  onclick="insert('*')">*</td>
+            </tr>
+            <tr>
+                <td onclick="insert(4)">4</td>
+                <td onclick="insert(5)">5</td>
+                <td onclick="insert(6)">6</td>
+                <td style="background-color: orange; color: #000;" onclick="insert('+')">+</td>
+            </tr>
+            <tr>
+                <td onclick="insert(1)">1</td>
+                <td onclick="insert(2)">2</td>
+                <td onclick="insert(3)">3</td>
+                <td style="background-color: orange; color: #000;" onclick="insert('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="insert(0)">0</td>
+                <td onclick="insert('.')">. </td>
+               <td style="background-color: orange; color: #000;" colspan="2" onclick="eql()">=</td>  
+                
+            </tr>
+         
+            
+           
+        </tbody>
+        
+        
+    </table>
+</div>
+<script src="C:\Users\91932\Desktop\html\JQuery\JS\cal.js"></script>
+    
+  
+    
+
+      
+ <p style="color: #ffffff90; margin-left: 585px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">by @vaishnavirokar</p>
+
+</body>
+</html>
